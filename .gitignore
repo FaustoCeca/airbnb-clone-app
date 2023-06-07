@@ -26,9 +26,15 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env*
 
 # vercel
 .vercel
+
+# Copilot, ignore ALL the .env files in the root directory
+.env
+
 
 # typescript
 *.tsbuildinfo
